@@ -1,0 +1,43 @@
+.footer{
+    background-color:#141516 !important;
+    text-align: center;
+    
+    &-logo{
+        margin-top: 3%;
+    }
+    &-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+        & hr{
+            color: white;
+        }
+    }
+    &-contact{
+        & .iconify{
+            color: white;
+            font-size: 2rem;
+        }
+    }
+    &-link{
+        width: 15%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+    &-navbar{
+        text-decoration: none;
+        width: 25%;
+        padding-top: 2%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+    .copyright{
+        margin-top: 2%;
+        padding: 0.5%;
+        background-color: rgb(10, 10, 10);
+    }
+}

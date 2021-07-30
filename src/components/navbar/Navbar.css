@@ -1,0 +1,40 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0) !important;
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-container {
+  padding: 5% auto;
+}
+
+.navbar-brand span:nth-child(1) {
+  color: #F1792F;
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: bold;
+  background-color: white;
+  padding: 2%;
+}
+
+.navbar-brand span:nth-child(2) {
+  color: white;
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: bold;
+  background-color: #F1792F;
+  padding: 2%;
+}
+
+.navbar-items {
+  padding: auto;
+}
+
+.navbar-nav {
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: bold;
+}
+/*# sourceMappingURL=Navbar.css.map */

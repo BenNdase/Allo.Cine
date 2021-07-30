@@ -1,0 +1,39 @@
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1d1c1c;
+    border-radius: 2px;
+}
+
+.movie-details {
+    width: 100%;
+    height: 89%;
+    background-color: #1d1c1cd5;
+    position: absolute;
+    top: 11%;
+    overflow-y: auto;
+}
+
+.movies-description {
+    display: flex;
+}
+
+.movie-description {
+    margin: 3%;
+}
+
+.description-genre {
+    padding-left: 0.5%;
+}
+
+.description-image {
+    display: flex;
+}
+
+.modal-content {
+    background-color: black;
+}

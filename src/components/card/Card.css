@@ -1,0 +1,18 @@
+.container-card {
+  padding: 2%;
+  width: 100%;
+}
+
+.card {
+  border: none;
+  background-color: #151515;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #151515;
+  font-family: 'Ubuntu Mono', monospace;
+  text-align: center;
+  font-weight: bold;
+}
+/*# sourceMappingURL=Card.css.map */

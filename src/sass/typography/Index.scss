@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100vw;
+    background-image: url("../../assets/Dark.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.police-ubuntu{
+    font-family: "Ubuntu Mono",monospace;
+}
+.police-roboto{
+    font-family: "Roboto",sans-serif;
+}
+.police-opensans{
+    // font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
